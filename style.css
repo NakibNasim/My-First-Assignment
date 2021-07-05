@@ -1,0 +1,48 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    margin: 0%;
+    padding: 0%;
+}
+.menu-bar{
+    background-color: black;
+    text-align: center;
+    height: 80px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    font-size: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background-color: #2bab0d;
+    border-radius: 5px;
+}
+#manyproducts{
+    text-decoration: none;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+.second-section{
+    display: flex;
+}
+.first-part{
+    width: 50%;
+    margin: 15px;
+    padding-left: 10px;
+}
+.first-part img{
+    width: 100%;
+}
