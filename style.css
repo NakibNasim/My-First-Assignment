@@ -70,3 +70,37 @@ body{
     color: white;
     border-radius: 25px;
 }
+.middle-banner{
+    margin-top: 50px;
+    background-image: url(picture/7.png);
+}
+.third-section{
+    display: flex;
+    height: 600px;
+}
+.second-part{
+    width: 50%;
+    margin: 15px;
+}
+.second-part img{
+    height: 585px; width: 600px;
+    margin-left: 50px;
+}
+.second-part h1{
+    font-size: 50px;
+    color: gray;
+    margin-top: 130px;
+}
+.second-part p{
+    text-align: justify;
+    margin-right: 130px;
+    margin-bottom: 70px;
+}
+.second-part button{
+    background: linear-gradient(gold, tomato);
+    border: none;text-decoration: none;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+}
