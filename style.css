@@ -126,19 +126,6 @@ body{
     background-size: 1000px;
     text-align: center;
 }
-.last-part h1{
-    text-size: 40px;
-    color: rgb(163, 163, 163);
-    padding-top: 50px;
-    margin-bottom: 45px;
-}
-.last-part span{
-    color: goldenrod;
-}
-.last-part p{
-    color: white;
-    padding-bottom: 150px;
-}
 .fourth-section{
     display: flex;
     margin-top: 50px;
@@ -174,3 +161,35 @@ body{
 #box-1{
     margin-top: 20px;
 }
+.last-box{
+    display: flex;
+    margin: 150px 150px;
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 25px;
+    text-align: center;
+}
+.last-box h1{
+    margin: 80px 80px;
+    font-size: 50px;
+    color: rgb(17, 17, 17);
+    padding-left: 50px;
+}
+.last-box small{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    color: rgb(59, 59, 59);
+}
+.last-part h1{
+    font-size: 40px;
+    color: rgb(163, 163, 163);
+    padding-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.last-part span{
+    color: goldenrod;
+}
+.last-part p{
+    color: white;
+    padding-bottom: 150px;
